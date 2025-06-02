@@ -1,5 +1,5 @@
 premium_users = {
-    ["945"] = false, -- KNOW (PC)
+    ["9465"] = false, -- KNOW (PC)
 }
 
 function isUserIdAllowed(userid)
