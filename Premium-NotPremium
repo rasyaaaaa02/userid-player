@@ -1,3 +1,8 @@
 premium_users = {
     ["9465"] = true, -- KNOW (PC)
 }
+
+
+function isUserIdAllowed(userid)
+    return premium_users[userid] or false
+end
